@@ -1,3 +1,5 @@
+import "./Buttons.css";
+
 const ButtonStart = () => {
   return (
     <div>

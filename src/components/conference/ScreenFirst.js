@@ -1,3 +1,5 @@
+import "./Screens.css";
+
 const ScreenFirst = () => {
   return (
     <div className="screen">

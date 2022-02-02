@@ -4,7 +4,7 @@ import Duration from "./Duration";
 
 const Buttons = () => {
   return (
-    <div>
+    <div className="buttons__wrapper">
       <ButtonStart />
       <ButtonEnd />
       <Duration />
