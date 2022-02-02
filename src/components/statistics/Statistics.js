@@ -14,9 +14,23 @@ const Statistics = () => {
           <div>Icon</div>
         </div>
 
-        <div className="">
-         
-        </div> 
+        <div className="statsitics__items">
+          <div>1</div>
+          <div>2022.02.02</div>
+          <div>07:07:07</div>
+          <div>07:09:09</div>
+          <div>00:02:02</div>
+          <div>Icon</div>
+        </div>
+
+        <div className="statsitics__items">
+          <div>1</div>
+          <div>2022.02.02</div>
+          <div>07:07:07</div>
+          <div>07:09:09</div>
+          <div>00:02:02</div>
+          <div>Icon</div>
+        </div>
       </div>
     </section>
   )

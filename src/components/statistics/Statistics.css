@@ -6,4 +6,10 @@
 .statistics__header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 6fr));
+  font-weight: 700;
+}
+
+.statsitics__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 6fr));
 }
