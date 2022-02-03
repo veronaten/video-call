@@ -1,6 +1,12 @@
+import "./Header.css";
+
 const Header = () => {
   return (
-    <h1>Verona Video Calls</h1>
+    <div className="header__wrapper">
+      <h1>Verona Video Calls</h1>
+      <button className="header__button">Turn On</button>
+    </div>
+    
   )
 }
 
