@@ -1,6 +1,13 @@
+import "./Header.css";
+import Button from "../button/Button";
+
 const Header = () => {
   return (
-    <h1>Verona Video Calls</h1>
+    <div className="header__wrapper">
+      <h1 className="header__title">Verona Video Calls</h1>
+      <Button className="header__button">Turn On</Button>
+    </div>
+    
   )
 }
 

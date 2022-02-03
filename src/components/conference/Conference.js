@@ -1,15 +1,14 @@
-import Buttons from "./buttons/Buttons";
-import ScreenFirst from "./ScreenFirst";
-import ScreenSecond from "./ScreenSecond";
+import CallControls from "./control/CallControls";
+import Screen from "../screen/Screen";
 
 import "./Conference.css";
 
-const Conference = () => {
+const Conference = (props) => {
   return (
     <div className="wrapper">
-      <ScreenFirst />
-      <Buttons />
-      <ScreenSecond />
+      <Screen id="localVideo"/>
+      <CallControls />
+      <Screen id="remoteVideo"/>
     </div>
   );
 };
