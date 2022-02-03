@@ -1,4 +1,4 @@
-import CallControls from "./button/CallControls";
+import CallControls from "./control/CallControls";
 import Screen from "../screen/Screen";
 
 import "./Conference.css";
