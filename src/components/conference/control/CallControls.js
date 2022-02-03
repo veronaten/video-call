@@ -4,8 +4,8 @@ import Stopwatch from "../../stopwatch/Stopwatch";
 const CallControls = (props) => {
   return (
     <div className="buttons__wrapper">
-      <Button name="Start Call"/>
-      <Button name="End Call"/>
+      <Button >{"Start Call"}</Button>
+      <Button >{"End Call"}</Button>
       <Stopwatch />
     </div>
   )

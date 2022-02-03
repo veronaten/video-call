@@ -1,11 +1,3 @@
-// const Stopwatch = () => {
-//   return (
-//     <div>00:00:00</div>
-//   )
-// };
-
-// export default Stopwatch;
-
 import * as React from 'react';
 import ReactStopwatch from 'react-stopwatch';
 

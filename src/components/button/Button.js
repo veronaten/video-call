@@ -1,10 +1,10 @@
+import React from "react";
 import "./Button.css";
+import classnames from "classnames";
 
-const Button = (props) => {
+const Button = ({children, variant = "primary", ...props}) => {
   return (
-    <div>
-      <button className="conference__button">{props.name}</button>
-    </div>
+    <button className={classnames("button", variant)} type="button" {...props}>{children}</button>
   )
 };
 
