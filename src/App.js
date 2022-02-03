@@ -6,7 +6,7 @@ import Statistics from './components/statistics/Statistics';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Header />
       <Conference />
       <Statistics />
