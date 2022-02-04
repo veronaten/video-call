@@ -1,7 +1,7 @@
-import "./Statistics.css";
-import Button from "../button/Button";
+import "./Statistics.css"
+import Button from "../button/Button"
 
-const Statistics = () => {
+function Statistics() {
   return (
     <section>
       <h2>Recent Calls</h2>
@@ -45,6 +45,6 @@ const Statistics = () => {
       </table>
     </section>
   )
-};
+}
 
-export default Statistics;
+export default Statistics

@@ -1,21 +1,17 @@
-import React, { useState } from "react";
-import "./Header.css";
-import Button from "../button/Button";
+import "./Header.css"
+import Button from "../button/Button"
 
-const Header = () => {
-  const [btnDisabled, setBtnDisabled] = useState(false);
-  
-  const buttonHandler = () => {
-    setBtnDisabled(true);
-  }
+function Header() {
+  const handleAppStart = () => {}
 
   return (
     <div className="header__wrapper">
-      <h1 className="header__title" >Verona Video Calls</h1>
-      {!btnDisabled && <Button className="header__button" variant = "primary" onClick={buttonHandler}>Turn On</Button>}
-      {btnDisabled && <Button className="header__button" variant = "secondary" onClick={buttonHandler}>Turn On</Button>}
+      <h1 className="header__title">Verona Video Calls</h1>
+      <Button className="header__button" onClick={handleAppStart}>
+        Turn On
+      </Button>
     </div>
   )
 }
 
-export default Header;
+export default Header

@@ -1,12 +1,12 @@
-import "./Duration.css";
+import "./Duration.css"
 
-const Duration = (props) => {
+function Duration({ children }) {
   return (
     <div className="duration__wrapper">
-      <h3>{props.title}</h3>
-      <div>{props.time}</div>
+      <h3>{children}</h3>
+      <div>{children}</div>
     </div>
   )
-};
+}
 
-export default Duration;
+export default Duration
