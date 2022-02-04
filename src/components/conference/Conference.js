@@ -6,7 +6,7 @@ import "./Conference.css";
 const Conference = (props) => {
   return (
     <div className="wrapper">
-      <Screen id="localVideo"/>
+      <Screen id="localVideo"><video id="localVideo" playsinline autoplay muted></video></Screen>
       <CallControls />
       <Screen id="remoteVideo"/>
     </div>
