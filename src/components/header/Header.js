@@ -1,13 +1,11 @@
 import "./Header.css"
 import Button from "../button/Button"
 
-function Header() {
-  const handleAppStart = () => {}
-
+function Header({ children }) {
   return (
     <div className="header__wrapper">
       <h1 className="header__title">Verona Video Calls</h1>
-      <Button className="header__button" onClick={handleAppStart}>
+      <Button className="header__button" onClick={children.handleAppStart}>
         Turn On
       </Button>
     </div>
