@@ -23,7 +23,6 @@
   transition: background-color 0.1s linear;
   background-color: rgb(248, 64, 64);
   border: 1px solid rgb(204, 78, 78);  
-
 }
   
 .header__button:hover {
