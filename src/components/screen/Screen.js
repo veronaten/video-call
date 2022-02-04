@@ -1,11 +1,14 @@
-import "./Screen.css";
+import "./Screen.css"
 
-const Screen = (props) => {
+function Screen({ children }) {
   return (
     <div className="screen">
-      <video>{props.id}</video>
+      <video playsinline autoPlay>
+        <track default kind="captions" srcLang="en" />
+        {children}
+      </video>
     </div>
   )
-};
+}
 
-export default Screen;
+export default Screen

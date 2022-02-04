@@ -1,14 +1,12 @@
-import Button from "../../button/Button";
-import Stopwatch from "../../stopwatch/Stopwatch";
+import Button from "../../button/Button"
 
-const CallControls = (props) => {
+function CallControls() {
   return (
     <div className="buttons__wrapper">
-      <Button >{"Start Call"}</Button>
-      <Button >{"End Call"}</Button>
-      <Stopwatch />
+      <Button>Start Call</Button>
+      <Button>End Call</Button>
     </div>
   )
-};
+}
 
-export default CallControls;
+export default CallControls

@@ -1,16 +1,16 @@
-import CallControls from "./control/CallControls";
-import Screen from "../screen/Screen";
+import CallControls from "./control/CallControls"
+import Screen from "../screen/Screen"
 
-import "./Conference.css";
+import "./Conference.css"
 
-const Conference = (props) => {
+function Conference() {
   return (
     <div className="wrapper">
-      <Screen id="localVideo"/>
+      <Screen id="localVideo" />
       <CallControls />
-      <Screen id="remoteVideo"/>
+      <Screen id="remoteVideo" />
     </div>
-  );
-};
+  )
+}
 
-export default Conference;
+export default Conference
